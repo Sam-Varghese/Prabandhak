@@ -25,6 +25,82 @@
   <body>
     <h1 align="center">Create Event</h1>
 
+    <!-- Adding menu bar -->
+
+    <!-- Adding menu items -->
+
+    <div class="dropdown" style="display: flex; justify-content: center">
+
+        <!-- Home Menu Item -->
+
+        <a href="../index.html"><button class="btn btn-secondary" style="margin: 0.5vw">Home</button></a>
+
+      <!-- Scheduler Menu Item -->
+
+      <button
+        class="btn btn-secondary dropdown-toggle"
+        type="button"
+        id="dropdownMenuButton2"
+        data-bs-toggle="dropdown"
+        aria-expanded="false" 
+        style="margin: 0.5vw"
+      >
+        Scheduler
+      </button>
+      <ul
+        class="dropdown-menu dropdown-menu-dark"
+        aria-labelledby="dropdownMenuButton2"
+      >
+        <li><a class="dropdown-item active" href="MenuItems/createEvent.html">Create Event</a></li>
+        <li><a class="dropdown-item" href="#">Edit Event</a></li>
+        <li><a class="dropdown-item" href="#">Delete Event</a></li>
+      </ul>
+
+      <!-- To Do Menu Item -->
+
+      <button
+        class="btn btn-secondary dropdown-toggle"
+        type="button"
+        id="dropdownMenuButton2"
+        data-bs-toggle="dropdown"
+        aria-expanded="false" 
+        style="margin: 0.5vw"
+      >
+        Todo
+      </button>
+
+      <ul
+        class="dropdown-menu dropdown-menu-dark"
+        aria-labelledby="dropdownMenuButton2"
+      >
+        <li><a class="dropdown-item active" href="#">Create Task</a></li>
+        <li><a class="dropdown-item" href="#">Edit Task</a></li>
+        <li><a class="dropdown-item" href="#">Delete Task</a></li>
+      </ul>
+
+      <!-- Activator Menu Item -->
+
+      <button
+        class="btn btn-secondary dropdown-toggle"
+        type="button"
+        id="dropdownMenuButton2"
+        data-bs-toggle="dropdown"
+        aria-expanded="false" 
+        style="margin: 0.5vw"
+      >
+        Activator
+      </button>
+
+      <ul
+        class="dropdown-menu dropdown-menu-dark"
+        aria-labelledby="dropdownMenuButton2"
+      >
+        <li><a class="dropdown-item active" href="#">New Activation Session</a></li>
+        <li><a class="dropdown-item" href="#">Edit Activation Session</a></li>
+        <li><a class="dropdown-item" href="#">Delete Activation Session</a></li>
+      </ul>
+    </div>
+
     <form action="">
       <div class="mb-3">
         <label for="eventTitle" class="form-label">Title of the event: </label>
@@ -49,7 +125,7 @@
         <input type="text" class="form-control" id="eventDescription" />
       </div>
       <div class="mb-3">
-        <label for="eventLocation" class="form-label">Enter the location of the event: </label>
+        <label for="eventLocation" class="form-label">Enter the location/ link of the event: </label>
         <input type="text" class="form-control" id="eventLocation">
       </div>
 

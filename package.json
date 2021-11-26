@@ -1,0 +1,27 @@
+{
+  "name": "prabandhak",
+  "version": "1.0.0",
+  "description": "A web application to schedule tasks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sam-Varghese/Prabandhak.git"
+  },
+  "keywords": [
+    "Schedule",
+    "tasks"
+  ],
+  "author": "Sam, Vedant, Harshit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sam-Varghese/Prabandhak/issues"
+  },
+  "homepage": "https://github.com/Sam-Varghese/Prabandhak#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  }
+}
